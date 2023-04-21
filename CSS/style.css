@@ -1,6 +1,6 @@
 :root{
 
-    --primaryColor: pink;
+    --primaryColor: rgb(20, 20, 20);;
     --secondaryColor: blue;
     --accentColor: green;
     --whiteCustom: rgb(254, 254, 254);
@@ -9,7 +9,23 @@
 }
 
 h1{
-
+    /*rivedere font!*/
+    font-family: 'Lato', sans-serif;
     color: var(--primaryColor);
+    font-size: 120px
     
+}
+/*google fonts*/
+.titolino{
+      font-family: 'Passion One', cursive;
+      font-size: 30px;
+      
+}
+.colorino{
+    color: var(--blackCustom);
+   
+}
+.spostadestra{
+   
+   text-align: right;
 }
