@@ -25,7 +25,8 @@ h1{
     color: var(--blackCustom);
    
 }
-.spostadestra{
+.positiontext{
    
-   text-align: right;
+   position: fixed;
+   right: 20px;
 }
