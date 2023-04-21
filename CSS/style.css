@@ -1,6 +1,6 @@
-:root{
+:root {
 
-    --primaryColor: rgb(20, 20, 20);;
+    --primaryColor: rgb(20, 20, 20);
     --secondaryColor: blue;
     --accentColor: green;
     --whiteCustom: rgb(254, 254, 254);
@@ -8,25 +8,43 @@
 
 }
 
-h1{
+h1 {
     /*rivedere font!*/
-    font-family: 'Lato', sans-serif;
-    color: var(--primaryColor);
-    font-size: 120px
-    
+    font-family: 'Poppins', sans-serif;    color: var(--primaryColor);
+    font-size: 150px;
+    font-weight: 500;
+    margin-top: 12%;
 }
+
+.pheadercustom{
+    font-size: 35px;
+    font-weight: 400;
+}
+
 /*google fonts*/
-.titolino{
-      font-family: 'Passion One', cursive;
-      font-size: 30px;
-      
+.titolino {
+    font-family: 'Passion One', cursive;
+    font-size: 30px;
+
 }
-.colorino{
-    color: var(--blackCustom);
-   
+
+.colorino {
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    transition: 0.5s;
 }
-.positiontext{
-   
-   position: fixed;
-   right: 20px;
+
+.colorino:hover {
+    color: black;
+    border-bottom: solid 1px black ;
+}
+
+.positiontext {
+    width: 95%;
+}
+
+.videocustom{
+    width:98% ;
+
 }
