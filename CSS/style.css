@@ -1,0 +1,15 @@
+:root{
+
+    --primaryColor: pink;
+    --secondaryColor: blue;
+    --accentColor: green;
+    --whiteCustom: rgb(254, 254, 254);
+    --blackCustom: rgb(20, 20, 20);
+
+}
+
+h1{
+
+    color: var(--primaryColor);
+    
+}
