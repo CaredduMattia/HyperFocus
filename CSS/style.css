@@ -16,7 +16,7 @@ h1 {
     margin-top: 12%;
 }
 
-.pheadercustom{
+.p-text-custom{
     font-size: 35px;
     font-weight: 400;
 }
@@ -50,8 +50,32 @@ h1 {
 
 }
 
-.our-case-custom{
+.underline-custom{
 
     text-decoration: underline;
+    transition: 0.5s;
+    color: black;
+
+}
+
+.underline-custom:hover{
+
+    color: rgb(85, 85, 85);
+
+}
+
+.paragrafo-custom{
+
+    position: absolute;
+    top: 40px;
+    left: -10px;
+
+}
+
+.paragrafo-custom2{
+
+    position: absolute;
+    top: 25px;
+    left: -10px;
 
 }
