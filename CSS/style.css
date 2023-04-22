@@ -90,7 +90,9 @@ h1 {
 
 .donna-custom{
 
-    height: 1300px;
+    height: 1000px;
     margin-left: 40px;
+    position: fixed;
+    
     
 }
