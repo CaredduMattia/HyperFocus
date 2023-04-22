@@ -88,11 +88,10 @@ h1 {
 
 }
 
-.donna-custom{
+.backgroundCustom{
+    background-color: whitesmoke;
+}
 
-    height: 1000px;
-    margin-left: 40px;
-    position: fixed;
-    
-    
+.img-small{
+    height: 94px;
 }
