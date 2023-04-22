@@ -47,7 +47,10 @@ h1 {
 .videocustom{
     width:95%;
     cursor: pointer;
+}
 
+.videocustom2{
+    cursor: pointer;
 }
 
 .underline-custom{
