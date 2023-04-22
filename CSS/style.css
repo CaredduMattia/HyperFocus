@@ -4,7 +4,13 @@
     --secondaryColor: blue;
     --accentColor: green;
     --whiteCustom: rgb(254, 254, 254);
-    --blackCustom: rgb(20, 20, 20);
+    --blackCustom: rgb(10, 10, 10);
+
+}
+
+.body{
+
+    overflow-x: hidden;
 
 }
 
@@ -20,6 +26,13 @@ h1 {
     font-size: 30px;
     font-weight: 400;
 }
+
+.p-text-custom2{
+    font-size: 31px;
+    font-weight: 400;
+    color: black;
+}
+
 
 /*google fonts*/
 .titolino {
@@ -73,4 +86,11 @@ h1 {
     top: 30px;
     left: -10px;
 
+}
+
+.donna-custom{
+
+    height: 1300px;
+    margin-left: 40px;
+    
 }
