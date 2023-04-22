@@ -45,6 +45,13 @@ h1 {
 }
 
 .videocustom{
-    width:98% ;
+    width:95%;
+    cursor: pointer;
+
+}
+
+.our-case-custom{
+
+    text-decoration: underline;
 
 }
