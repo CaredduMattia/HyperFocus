@@ -15,7 +15,7 @@
 }
 
 /* cursore negativo */
-body {             
+*{             
     cursor: none;      
 } 
 
@@ -88,11 +88,12 @@ h1 {
 
 .videocustom {
     width: 95%;
-    cursor: pointer;
+    cursor: auto !important;
+
 }
 
 .videocustom2 {
-    cursor: pointer;
+    cursor: auto !important;
 }
 
 .underline-custom {
@@ -170,4 +171,23 @@ h1 {
 .button-email-custom a{
 
     text-decoration: none;
+}
+/* .pallino{
+    height: 25px;
+    width: 100px;
+} */
+.p-text-custom-3{
+    font-size: 31px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+
+}
+.collegamenti{
+    height: 50px;
+}
+
+.p-text-custom-3:hover{
+    color: black;
 }

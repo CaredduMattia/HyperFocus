@@ -27,6 +27,36 @@ window.addEventListener("load", () => {
 video1.addEventListener("click", () => {
     stopVid1();
 })
+video1.addEventListener('mouseenter', () =>{
+
+    video1.addEventListener("click", () => {
+
+
+        if (check == true){
+
+            cursor.style.cursor = "pointer";
+            check = false;
+
+        } else {
+
+            cursor.style.cursor = "auto";
+            check = true;
+
+        }
+    });
+
+    cursor.classList.add("d-none");
+
+
+
+})
+
+video1.addEventListener('mouseleave', () =>{
+
+    cursor.classList.remove("d-none");
+
+
+})
 
 // autoplay video 2
 
