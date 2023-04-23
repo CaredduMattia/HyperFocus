@@ -8,26 +8,55 @@
 
 }
 
-.body{
+.body {
 
     overflow-x: hidden;
 
 }
 
+/* cursore negativo */
+body {             
+    cursor: none;      
+} 
+
+#myCustomCursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    top: var(--y, 0);
+    left: var(--x, 0);
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transition-timing-function: ease-out;
+    z-index: 99999;
+}
+
+#myCustomCursor.myCursorHoverState {
+    width: 160px;
+    height: 160px;
+    background: black;
+}
+
+/* fine cursore negativo */
+
 h1 {
     /*rivedere font!*/
-    font-family: 'Poppins', sans-serif;    color: var(--primaryColor);
+    font-family: 'Poppins', sans-serif;
+    color: var(--primaryColor);
     font-size: 150px;
     font-weight: 500;
     margin-top: 12%;
 }
 
-.p-text-custom{
+.p-text-custom {
     font-size: 30px;
     font-weight: 400;
 }
 
-.p-text-custom2{
+.p-text-custom2 {
     font-size: 31px;
     font-weight: 400;
     color: black;
@@ -50,23 +79,23 @@ h1 {
 
 .colorino:hover {
     color: black;
-    border-bottom: solid 1px black ;
+    border-bottom: solid 1px black;
 }
 
 .positiontext {
     width: 95%;
 }
 
-.videocustom{
-    width:95%;
+.videocustom {
+    width: 95%;
     cursor: pointer;
 }
 
-.videocustom2{
+.videocustom2 {
     cursor: pointer;
 }
 
-.underline-custom{
+.underline-custom {
 
     text-decoration: underline;
     transition: 0.5s;
@@ -74,13 +103,13 @@ h1 {
 
 }
 
-.underline-custom:hover{
+.underline-custom:hover {
 
     color: rgb(85, 85, 85);
 
 }
 
-.paragrafo-custom{
+.paragrafo-custom {
 
     position: absolute;
     top: 30px;
@@ -88,10 +117,14 @@ h1 {
 
 }
 
-.backgroundCustom{
+.backgroundCustom {
     background-color: whitesmoke;
 }
 
-.img-small{
+.img-small {
     height: 94px;
+}
+
+.join {
+    font-weight: 400;
 }
