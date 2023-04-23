@@ -128,3 +128,46 @@ h1 {
 .join {
     font-weight: 400;
 }
+
+/* EMAIL */
+
+.email-custom{
+
+    width: 400px;
+    height: 70px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 25px;
+    border-color: #141414;
+    font-size: x-large;
+    
+}
+
+
+.email-custom::-webkit-input-placeholder{
+
+    color: #1c1b1bee;
+    font-weight: 500;
+}
+
+.email-custom:focus{
+
+    outline: none;
+}
+
+.button-email-custom{
+
+    height: 70px;
+    width: 300px;
+    margin-left: 3%;
+    background-color: white;
+    font-size: 27px;
+    cursor: none !important;
+    
+}
+
+.button-email-custom a{
+
+    text-decoration: none;
+}
