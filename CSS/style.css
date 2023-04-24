@@ -1,3 +1,13 @@
+body {
+
+
+    overflow-x: hidden;
+
+} 
+
+
+
+
 :root {
 
     --primaryColor: rgb(20, 20, 20);
@@ -203,6 +213,7 @@ h1 {
 .backgroundfooter {
     background-color: black;
     margin-top: 100px !important;
+    /* height: 100vh; */
 }
 
 .font-size {
@@ -212,13 +223,13 @@ h1 {
 .footer-link {
     color: white;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .footer-link:hover {
     color: white;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 
@@ -232,14 +243,18 @@ h1 {
 
 .lenghttext {
 
-    width: 80%;
+    width: 100%;
 
 
 }
 
 .img-custom {
 
-    height: 100px;
+    height: 20%;
+    width: 20%;
+    background-image: url(/Media/Hyperfocus-Circle-Logo-500x500-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }
 
@@ -248,5 +263,13 @@ hr {
     border-color: white;
 
     height: 2px;
+
+}
+
+.text-footer-custom {
+
+    font-size: 22px;
+  
+
 
 }
