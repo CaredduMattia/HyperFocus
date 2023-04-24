@@ -1,8 +1,21 @@
 
-.rowCustom{
+/* .rowCustom{
     height: 120vh;
+} */
+
+.bg-custom-journal {
+
+    background-color: #141414;
+
 }
 
+.p-custom-contact{
+
+    color: white;
+    padding-top: 70px;
+    font-size: 25px;
+
+}
 
 .scrittebianche p, h1, h6{
     color: white;
@@ -30,4 +43,10 @@
 }
 .paragrafiDestra p, h6{
     color: white;
+}
+
+.padding-row-custom {
+
+    padding-bottom: 100px;
+
 }
