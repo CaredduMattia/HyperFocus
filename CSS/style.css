@@ -8,16 +8,19 @@
 
 }
 
-.body {
-
-    overflow-x: hidden;
-
+.cursorpointer{
+    cursor: pointer;
 }
 
+.cursordefault{
+    cursor: default;
+}
+
+
 /* cursore negativo */
-*{             
-    cursor: none;      
-} 
+* {
+    cursor: none;
+}
 
 #myCustomCursor {
     position: fixed;
@@ -88,12 +91,6 @@ h1 {
 
 .videocustom {
     width: 95%;
-    cursor: auto !important;
-
-}
-
-.videocustom2 {
-    cursor: auto !important;
 }
 
 .underline-custom {
@@ -132,7 +129,7 @@ h1 {
 
 /* EMAIL */
 
-.email-custom{
+.email-custom {
 
     width: 400px;
     height: 70px;
@@ -142,22 +139,22 @@ h1 {
     padding: 25px;
     border-color: #141414;
     font-size: x-large;
-    
+
 }
 
 
-.email-custom::-webkit-input-placeholder{
+.email-custom::-webkit-input-placeholder {
 
     color: #1c1b1bee;
     font-weight: 500;
 }
 
-.email-custom:focus{
+.email-custom:focus {
 
     outline: none;
 }
 
-.button-email-custom{
+.button-email-custom {
 
     border: 2px solid black;
     height: 60px;
@@ -166,24 +163,26 @@ h1 {
     background-color: white;
     font-size: 27px;
     cursor: none !important;
-    
+
 }
 
-.button-email-custom a{
+.button-email-custom a {
 
     text-decoration: none;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black;
-    opacity: 1; /* Firefox */
-  }
+    opacity: 1;
+    /* Firefox */
+}
 
 /* .pallino{
     height: 25px;
     width: 100px;
 } */
-.p-text-custom-3{
+.p-text-custom-3 {
     font-size: 31px;
     font-weight: 400;
     color: black;
@@ -191,37 +190,39 @@ h1 {
     list-style: none;
 
 }
-.collegamenti{
+
+.collegamenti {
     height: 50px;
 }
 
-.p-text-custom-3:hover{
+.p-text-custom-3:hover {
     color: black;
 }
 
 
-.backgroundfooter{
+.backgroundfooter {
     background-color: black;
     margin-top: 100px !important;
 }
-.font-size{
+
+.font-size {
     font-size: 60px;
 }
 
-.footer-link{
+.footer-link {
     color: white;
     text-decoration: none;
     font-size: 50px;
 }
 
-.footer-link:hover{
+.footer-link:hover {
     color: white;
     text-decoration: none;
     font-size: 50px;
 }
 
 
-.hr{
+.hr {
 
     border-color: white;
     opacity: 1 !important;

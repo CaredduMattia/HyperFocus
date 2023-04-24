@@ -1,91 +1,57 @@
 
 // autoplay video 1
-
+let check = true;
+let check2 = true;
 let video1 = document.querySelector("#video1");
 
-function playVid1() {
-    video1.setAttribute("playsinline", "");
-    video1.setAttribute("controls", true);
-    video1.setAttribute("autoplay", "");
-    setTimeout(() => {
-        video1.removeAttribute("controls");
-    });
-}
-
-function stopVid1() {
-    video1.setAttribute("controls", true);
-    video1.removeAttribute("autoplay", "");
-    setTimeout(() => {
-        video1.removeAttribute("controls");
-    });
-}
-
-window.addEventListener("load", () => {
-    playVid1();
-})
-
 video1.addEventListener("click", () => {
-    stopVid1();
+    if (check == false) {
+        video1.play();
+        video1.classList.remove("cursorpointer");
+        video1.classList.add("cursordefault");
+        check = true;
+    } else {
+        video1.pause();
+        video1.classList.remove("cursordefault")
+        video1.classList.add("cursorpointer")
+        check = false;
+    }
 })
-video1.addEventListener('mouseenter', () =>{
 
-    video1.addEventListener("click", () => {
-
-
-        if (check == true){
-
-            cursor.style.cursor = "pointer";
-            check = false;
-
-        } else {
-
-            cursor.style.cursor = "auto";
-            check = true;
-
-        }
-    });
-
+video1.addEventListener("mouseenter", () => {
     cursor.classList.add("d-none");
-
-
-
 })
 
-video1.addEventListener('mouseleave', () =>{
-
+video1.addEventListener('mouseleave', () => {
     cursor.classList.remove("d-none");
-
-
 })
 
 // autoplay video 2
 
 let video2 = document.querySelector("#video2");
 
-function playVid2() {
-    video2.setAttribute("playsinline", "");
-    video2.setAttribute("controls", true);
-    video2.setAttribute("autoplay", "");
-    setTimeout(() => {
-        video2.removeAttribute("controls");
-    });
-}
-
-function stopVid2() {
-    video2.setAttribute("controls", true);
-    video2.removeAttribute("autoplay", "");
-    setTimeout(() => {
-        video2.removeAttribute("controls");
-    });
-}
-
-window.addEventListener("load", () => {
-    playVid2();
-})
-
 video2.addEventListener("click", () => {
-    stopVid2();
+    if (check2 == false) {
+        video2.play();
+        video2.classList.remove("cursorpointer");
+        video2.classList.add("cursordefault");
+        check2 = true;
+    } else {
+        video2.pause();
+        video2.classList.remove("cursordefault")
+        video2.classList.add("cursorpointer")
+        check2 = false;
+    }
 })
+
+video2.addEventListener("mouseenter", () => {
+    cursor.classList.add("d-none");
+})
+
+video2.addEventListener('mouseleave', () => {
+    cursor.classList.remove("d-none");
+})
+
 
 //  evento scroll navbar
 
@@ -163,29 +129,29 @@ let buttonEmailCustom = document.querySelector(`.button-email-custom`);
 
 // inizio evento input email
 
-inputEmail.addEventListener(`mouseenter`, ()=>{
+inputEmail.addEventListener(`mouseenter`, () => {
 
     inputEmail.style.background = ` rgba(128, 128, 128, 0.093)`;
-  
+
     inputEmail.style.cursor = `none`;
 
     inputEmail.style.transition = `0.4s`;
 
-        
+
 })
 
-inputEmail.addEventListener(`mouseleave`, ()=>{
+inputEmail.addEventListener(`mouseleave`, () => {
 
-  
+
     inputEmail.style.background = `white`;
 })
 
 // fine evento input email 
 
-  
+
 // Inizio evento bottone sign up
-   
-buttonEmailCustom.addEventListener(`mouseenter`, ()=>{
+
+buttonEmailCustom.addEventListener(`mouseenter`, () => {
 
     singUpCustom.style.color = `grey`;
 
@@ -197,17 +163,17 @@ buttonEmailCustom.addEventListener(`mouseenter`, ()=>{
 
 })
 
-buttonEmailCustom.addEventListener(`mouseleave`, ()=>{
+buttonEmailCustom.addEventListener(`mouseleave`, () => {
 
-    singUpCustom.style.color= `black`;
+    singUpCustom.style.color = `black`;
 
     singUpCustom.style.transition = `0.4s`;
 
     cursor.style.transform = `scale(1)`;
-    
+
 })
 
 // fine evento bottone sign up
-  
+
 
 
