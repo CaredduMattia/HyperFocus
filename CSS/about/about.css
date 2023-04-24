@@ -1,11 +1,4 @@
 
-*{
-
-    font-family: 'Poppins', sans-serif;
-
-}
-
-
 
 .bg-header-custom {
 
@@ -29,17 +22,9 @@
 
 }
 
-.colorino2 {
-    color: rgb(255, 255, 255);
-    font-size: 23px;
-    font-weight: 500;
-    transition: 0.5s;
-}
 
-.colorino2:hover {
-    color: rgb(255, 255, 255);
-    border-bottom: solid 1px rgb(255, 255, 255);
-}
+
+
 
 .text-p-custom{
 

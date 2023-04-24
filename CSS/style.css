@@ -30,6 +30,8 @@ body {
 /* cursore negativo */
 * {
     cursor: none;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 #myCustomCursor {
@@ -57,7 +59,6 @@ body {
 
 h1 {
     /*rivedere font!*/
-    font-family: 'Poppins', sans-serif;
     color: var(--primaryColor);
     font-size: 150px;
     font-weight: 500;
@@ -81,7 +82,7 @@ h1 {
 }
 
 
-/*google fonts*/
+/*titolo navbar*/
 .titolino {
     font-family: 'Passion One', cursive;
     font-size: 30px;
@@ -93,11 +94,45 @@ h1 {
     font-size: 23px;
     font-weight: 500;
     transition: 0.5s;
+ 
+}
+
+.colorino-selected {
+
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    transition: 0.5s;
+    border-bottom: solid 1px black;
+
 }
 
 .colorino:hover {
     color: black;
     border-bottom: solid 1px black;
+}
+
+
+.colorino2 {
+    color: rgb(255, 255, 255) !important;
+    font-size: 23px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+
+.colorino-selected2 {
+
+    color: rgb(255, 255, 255) !important;
+    font-size: 23px;
+    font-weight: 500;
+    transition: 0.5s;
+    border-bottom: 1px solid white;
+
+}
+
+.colorino2:hover {
+    border-bottom: solid 1px rgb(255, 255, 255) !important;
 }
 
 .positiontext {
@@ -294,3 +329,4 @@ hr {
     margin-left: -13px !important;
 
 }
+
