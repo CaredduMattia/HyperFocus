@@ -217,7 +217,7 @@ h1 {
 }
 
 .font-size {
-    font-size: 60px;
+    font-size: 65px;
 }
 
 .footer-link {
@@ -229,7 +229,7 @@ h1 {
 .footer-link:hover {
     color: white;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 65px;
 }
 
 
@@ -271,5 +271,11 @@ hr {
     font-size: 22px;
   
 
+
+}
+
+.space-footer-custom{
+
+    margin-left: -13px !important;
 
 }
