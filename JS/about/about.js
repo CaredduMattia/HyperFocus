@@ -1,4 +1,3 @@
-
 //  evento scroll navbar
 
 let navbar = document.querySelector("#navbar");
@@ -6,13 +5,17 @@ let scrollvalue = 0;
 
 window.addEventListener("scroll", () => {
     if (scrollvalue > window.scrollY) {
-        navbar.classList.remove("d-none");
+        navbar.style.top = "0";
     }
     else {
-        navbar.classList.add("d-none");
+        navbar.style.top = "-150px";
+        
+
     }
     scrollvalue = window.scrollY;
 })
+
+
 
 // cursore negativo
 

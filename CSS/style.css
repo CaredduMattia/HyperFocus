@@ -65,6 +65,12 @@ h1 {
     margin-top: 12%;
 }
 
+#navbar {
+
+    transition: top 0.5s;
+
+}
+ 
 .darkbg{
 
     background-color: #141414;
