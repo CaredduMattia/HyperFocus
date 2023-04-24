@@ -1,0 +1,33 @@
+
+.rowCustom{
+    height: 120vh;
+}
+
+
+.scrittebianche p, h1, h6{
+    color: white;
+    
+}
+
+.primoPcustom{
+    padding-top: 80%;
+    
+}
+.scrittebianche p{
+   font-size: 24px;
+
+}
+.scrittebianche{
+    padding-top: 23%;
+}
+
+
+.scrittebianchedestra p{
+    padding-top: 27%;
+    color: white;
+    font-size: 26px;
+
+}
+.paragrafiDestra p, h6{
+    color: white;
+}
