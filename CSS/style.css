@@ -200,6 +200,15 @@ h1 {
     list-style: none;
 
 }
+.soon{
+    padding-top: 20px;
+    height: 50px;
+    font-size: 31px;
+    font-weight: 400;
+    color:grey;
+    text-decoration: none;
+    list-style: none;
+}
 
 .collegamenti {
     height: 50px;
