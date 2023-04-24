@@ -62,3 +62,74 @@ function addCursorSpecialEffectToAllPageLinks(cursor) {
 createCustomCursor();
 
 // fine cursore negativo
+
+
+// IMMAGINI
+
+let immagini = document.querySelectorAll(`.immagini`);
+
+let titoloImmagini = document.querySelectorAll(`.titolo-immagini`);
+
+check = false;
+
+immagini.forEach((img)=>{
+
+    img.addEventListener(`mouseenter`, ()=>{
+
+        cursor.style.transform = `scale(1.3)`;
+
+    })
+
+    img.addEventListener(`mouseleave`, ()=>{
+
+        cursor.style.transform = `scale(1)`;
+    })
+})
+
+titoloImmagini.forEach((tit)=>{
+
+    tit.addEventListener(`mouseenter`, ()=>{
+
+        cursor.style.transform = `scale(1.3)`;
+
+        tit.style.color = `grey`;
+
+        tit.style.transition = `0.4s`;
+
+        if(check == false){
+
+            cursor.style.transition = `0.4s`;
+
+            check = true;
+        
+        } else {
+
+            cursor.style.transition = `0s`;
+
+            check = false;
+        }
+
+    })
+
+    tit.addEventListener(`mouseleave`, ()=>{
+
+        cursor.style.transform = `scale(1)`;
+
+        tit.style.color = `black`;
+
+        if(check == false){
+
+            cursor.style.transition = `0.4s`;
+
+            check = true;
+        
+        } else {
+
+            cursor.style.transition = `0s`;
+
+            check = false;
+        }
+
+
+    })
+})
