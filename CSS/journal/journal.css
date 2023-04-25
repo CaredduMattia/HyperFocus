@@ -1,7 +1,19 @@
 
 .p-journal-custom{
 
-    font-size: 23px;
+    font-size: 20px;
+}
+
+.journal-padding-custom{
+
+    padding-top: 7.5% !important;
+
+}
+
+.title-journal-custom{
+
+    font-size: 125px;
+
 }
 
 .prima-immagine-custom{
