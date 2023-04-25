@@ -2,14 +2,14 @@
 .bg-custom-journal {
 
     background-color: #141414;
-
+    padding-top: 10% !important;
 }
 
 .p-custom-contact{
 
     color: white;
     padding-top: 70px;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 

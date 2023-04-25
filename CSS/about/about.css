@@ -49,24 +49,115 @@
 
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 90%;
+    padding-left: 20%;
 
 }
+
+.img-personale-2{
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-left: 20%;
+    padding-top: 35%;
+
+}
+
+.img-personale-3{
+
+    display: flex;
+    flex-direction: column;
+    width: 110%;
+    padding-left: 55%;
+    padding-top: 10%;
+
+}
+
+.img-personale-4{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 70%;
+    padding-left: 50%;
+    padding-right: 5%;
+
+}
+
+.img-personale-5{
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 10%;
+    padding-left: 25%;
+
+}
+
+.img-personale-6{
+
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    padding-top: 10%;
+    padding-left: 70%;
+
+}
+
 
 .img-descriptions{
 
     font-size: 20px;
     text-align: left;
+    padding-left: 20%;
 
 }
 
-.row {
-    
-    display: flex;
+.img-descriptions-1{
+
+    font-size: 20px;
+    text-align: left;
+    padding-left: 55%;
+
 }
+
+.img-descriptions-2{
+
+    font-size: 20px;
+    text-align: left;
+    padding-left: 50%;
+
+}
+
+.img-descriptions-3{
+
+    font-size: 20px;
+    text-align: left;
+    padding-left: 25%;
+
+}
+
+.img-descriptions-4{
+
+    font-size: 20px;
+    text-align: left;
+    padding-left: 70%;
+    padding-bottom: 20% !important;
+
+}
+
+.img-dark{
+
+    width: 85%;
+    padding-top: 15%;
+
+}
+
+.ennesimopadding{
+
+    padding-top: 10%;
+}
+
   
-.column {
 
-    flex: 33.33%;
-    
-}
